@@ -31,11 +31,13 @@ int main() {
     // Mostrando os dados cadastrados
     printf("=== Dados Cadastrados ===\n");
     for (t = 0; t < 5; t++) {
+    
         printf("Territorio %d:\n", t + 1);
         printf("Nome: %s\n", territorios[t].nome);
         printf("Cor: %s\n", territorios[t].cor);
         printf("Tropas: %d\n\n", territorios[t].tropas);
     }
 
+    system("pause");
     return 0;
 }
